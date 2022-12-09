@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+h1 {
+    font-size: 40px;
+  margin-right: 15%;
+  margin-left: 50%;
+  margin-top: 40px;
+  color: rgba(248, 248, 255, 0.733);
+}
+
+h1.about {
+    font-size: 50px;
+  margin-right: 10%;
+  margin-left: 50%;
+  margin-top: 40px;
+  color: white;
+}
+
+h2 {
+  margin-right: 10%;
+  margin-left: 50%;
+  color: ghostwhite;
+}
+
+h3 {
+  margin-right: 10%;
+  margin-left: 50%;
+  margin-top: -10px;
+  color: rgba(248, 248, 255, 0.26);
+}
+
+nav.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 5%;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));
+  padding-top: 2%;
+}
+
+#bloc1, #bloc2 {
+    padding: 10px;
+    display: inline;
+    font-size: 20px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+a:visited {
+    color: #ffffff20
+}
+
+a {
+    color: #ffffff20;
+}
+
+a:hover {
+    color: gainsboro;
+}
+
+.shead {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: gainsboro;
+    border-radius: 20px;
+}
