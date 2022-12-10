@@ -39,8 +39,8 @@ nav.header {
   position: fixed;
   top: 0;
   width: 100%;
-  text-align: center;
   height: 5%;
+  text-align: center;
   background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0));
   padding-top: 2%;
 }
@@ -76,16 +76,5 @@ html {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-    border: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: gray;
-    border-radius: 20px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: gainsboro;
-    border-radius: 20px;
+    display: none;
 }
