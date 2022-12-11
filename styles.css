@@ -53,16 +53,15 @@ nav.header {
     font-size: 15px;
 }
 
-a:visited {
-    color: #ffffff20
-}
-
-a {
+a, a:visited {
     color: #ffffff20;
+    transition: transform 0.3s ease 0s;
+    display: inline-block
 }
 
 a:hover {
     color: gainsboro;
+    transform: translateY(-5px);
 }
 
 .shead {
